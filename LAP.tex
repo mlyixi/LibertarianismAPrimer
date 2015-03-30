@@ -1,0 +1,47 @@
+%        File: LAP.tex
+%     Created: 一  3 16 01:00 下午 2015 C
+% Last Change: 一  3 16 01:00 下午 2015 C
+%!TEX program = xelatex
+\documentclass[a4paper,12pt,adobefonts]{ctexbook}
+\usepackage{natbib,amsmath,amsfonts,fullpage,hyphenat,booktabs,graphicx,setspace,paracol}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[colorlinks,linkcolor=black,citecolor=blue,urlcolor=black]{hyperref}
+
+\onehalfspacing
+\tolerance=1600
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\begin{document}
+
+\frontmatter
+\include{./Chapters/title}
+\include{./Chapters/preface}
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\mainmatter
+% 更多section和subsection
+\include{./Chapters/chapter1}
+\include{./Chapters/chapter2}
+\include{./Chapters/chapter3}
+\include{./Chapters/chapter4}
+\include{./Chapters/chapter5}
+\include{./Chapters/chapter6}
+\include{./Chapters/chapter7}
+\include{./Chapters/chapter8}
+\include{./Chapters/chapter9}
+\include{./Chapters/chapter10}
+\include{./Chapters/chapter11}
+\include{./Chapters/chapter12}
+
+\appendix
+\include{./Chapters/appendix}
+
+\backmatter
+\include{./Chapters/readings}
+\include{./Chapters/ack}
+\end{document}
+
+
